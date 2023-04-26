@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:'poppins',sans-serif;
+}
+
+#navbar {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+}
+
+#navcontent {
+  height: 80px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  height: 80px;
+  width: 150px;
+  padding-top: 16px;
+}
+
+#logo svg {
+  fill: #fff;
+}
+
+#menu {
+  height: 80px;
+  width: 40%;
+}
+
+#menulist {
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  padding-top: 29px;
+  font-weight: 500;
+}
+
+#menulist p {
+  pointer-events: none;
+  color: #fff;
+}
+#menulist li a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+}
+
+#menulist li a:hover {
+  color: #1ed760;
+}
+
+/* section2 */
+
+#content {
+  height: 600px;
+  width: 100%;
+
+  background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100%
+      1068px no-repeat,
+    linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+  background-size: cover;
+  background-position: center;
+}
+
+#conarea {
+  height: 600px;
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+
+#lcphone {
+  height: 600px;
+  width: 40%;
+  padding-top: 95px;
+  padding-left: 90px;
+  /* border: 2px solid black; */
+}
+
+#lcphone svg {
+  height: 573px;
+  width: 286px;
+  position: absolute;
+}
+
+#lcphone img {
+  height: 445px;
+  width: 267px;
+  position: relative;
+  top: 60px;
+  left: 10px;
+}
+
+#rctext {
+  height: 600px;
+  width: 60%;
+}
+#rctext a button:hover {
+  transform: scale(1.05, 1.05);
+}
+#rctext a button {
+  height: 50px;
+  width: 200px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  background-color: white;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+#slogen {
+  font-size: 50px;
+  margin-top: 200px;
+  color: black;
+}
+
+/* section3 */
+
+#whyspot {
+  height: 600px;
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+}
+
+#whyspotemp {
+  height: 600px;
+  width: 80%;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
+
+#whyspotcont {
+  height: 600px;
+  width: 90%;
+  /* border: 2px solid darkorange; */
+  margin: auto;
+  /* margin-top: 50px; */
+}
+#whycont {
+  height: 20%;
+  width: 100%;
+  /* border: 2px solid black; */
+}
+
+#whycont h1 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+#whyicons {
+  height: 80%;
+  width: 100%;
+  /* border: 2px solid darkred; */
+  display: flex;
+}
+
+.whymainicon {
+  height: 100%;
+  width: 25%;
+  /* border: 2px solid yellow; */
+}
+
+#favicon {
+  height: 50%;
+  width: 100%;
+  background: url(./ab671c3d0000f430678067184805befd38aa0f57.png) no-repeat;
+  background-position: center;
+}
+
+#favcont {
+  height: 50%;
+  width: 100%;
+}
+
+#favcont {
+  text-align: center;
+  font-size: 15px;
+}
+
+#favcont h3 {
+  margin-top: 20px;
+}
+#favcont p {
+  margin-top: 20px;
+}
+
+#playlisticon {
+  height: 50%;
+  width: 100%;
+  background: url(./ab671c3d0000f430a6f822749d5c25c32ee31d66.png) no-repeat;
+  background-position: center;
+}
+
+#playlistcont {
+  height: 50%;
+  width: 100%;
+}
+
+#playlistcont {
+  text-align: center;
+  font-size: 15px;
+}
+
+#playlistcont h3 {
+  margin-top: 20px;
+}
+#playlistcont p {
+  margin-top: 20px;
+}
+
+#yoursicon {
+  height: 50%;
+  width: 100%;
+  background: url(./ab671c3d0000f430eb43023b5332389f5094530d.png) no-repeat;
+  background-position: center;
+}
+
+#yourscont {
+  height: 50%;
+  width: 100%;
+}
+
+#yourscont {
+  text-align: center;
+  font-size: 15px;
+}
+
+#yourscont h3 {
+  margin-top: 20px;
+}
+#yourscont p {
+  margin-top: 20px;
+}
+
+#mdicon {
+  height: 50%;
+  width: 100%;
+  background: url(./ab671c3d0000f4309430062bc28461dc8fbde6bc.png) no-repeat;
+  background-position: center;
+}
+
+#mdcont {
+  height: 50%;
+  width: 100%;
+}
+
+#mdcont {
+  text-align: center;
+  font-size: 15px;
+}
+
+#mdcont h3 {
+  margin-top: 20px;
+}
+#mdcont p {
+  margin-top: 20px;
+}
+
+/* section 4 */
+
+#cc {
+  height: 400px;
+  width: 100%;
+  background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+
+#cc h1 {
+  text-align: center;
+  padding-top: 125px;
+  font-size: 50px;
+}
+
+/* section 5 */
+
+#ques {
+  height: 400px;
+  width: 100%;
+}
+
+#ques h1 {
+  text-align: center;
+  padding: 50px;
+  font-size: 40px;
+}
+
+/* section 6 */
+
+#auready {
+  height: 400px;
+  width: 100%;
+  /* border: 2px solid red; */
+  background: url(https://www.scdn.co/i/free/lets-play.svg) left -10px bottom -160px /
+      100% 1114px no-repeat,
+    linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166))
+      rgb(108, 14, 224);
+  padding-top: 130px;
+}
+
+#readycont {
+  height: 200px;
+  width: 100%;
+  /* border: 2px solid red; */
+  /* margin-top: 100px; */
+}
+
+#readycont h1 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+#readytext {
+  height: 50%;
+  /* border: 2px solid red; */
+}
+
+#readybutton {
+  height: 50%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+#readybutton a button:hover {
+  transform: scale(1.05, 1.05);
+}
+
+#readybutton a button {
+  height: 50px;
+  width: 200px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+/* section 7 */
+
+#footer{
+  height: 554px;
+  width: 100%;
+  /* border: 2px solid rebeccapurple; */
+  padding: 80px 0px 30px;
+  background: black;
+}
+
+#footercont{
+  height: 424px;
+  width: 80%;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
+
+#fn1{
+  height: 80%;
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+}
+
+#fn11{
+  height: 100%;
+  width: 20%;
+  /* border: 2px solid red; */
+}
+
+#spoticon svg{
+  
+  height: 50px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+  fill: #fff;
+}
+
+#fn12{
+  height: 100%;
+  width: 50%;
+  /* border: 2px solid red; */
+  display: flex;
+
+}
+
+#fn12 h5{
+  color: gray;
+  font-size: 14px;
+}
+
+#fn121,#fn122,#fn123{
+  
+  width: 33.33%;
+  height: 100%;
+  padding-left: 30px;
+  padding-top: 30px;
+  color: #fff;
+  line-height: 35px;
+  
+}
+
+#fn121 ul,#fn122 ul,#fn123 ul{
+ list-style-type: none;
+}
+
+#fn121 a,#fn122 a,#fn123 a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#fn121 a:hover,#fn122 a:hover,#fn123 a:hover{
+  color: #1ed760;
+}
+
+#fn13{
+  height: 100%;
+  width: 30%;
+  /* border: 2px solid red; */
+  padding-left: 120px;
+  padding-top: 30px;
+}
+
+#socialicons{
+  height: 54px;
+  width: 192px;
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+#insta, #tweet, #fb{
+  height: 90%;
+  width: 25%;
+  border-radius: 100px;
+  background: #2e2e2e;
+  padding-left: 8px;
+  padding-top: 7.5px;
+  
+}
+
+
+#insta ion-icon,#tweet ion-icon,#fb ion-icon{
+  
+  height: 80%;
+  width: 80%;
+  fill: #fff;
+}
+
+#insta ion-icon:hover,#tweet ion-icon:hover,#fb ion-icon:hover{
+  fill: #1ed760
+}
+
+#univicon{
+  float: right;
+  padding-top: 5px;
+  padding-right: 25px;
+   
+}
+#univicon svg{
+  padding-top: 3px;
+}
+
+#univicon span{
+  font-size: 13px;
+}
+
+#fn2{
+  height: 10%;
+  width: 100%;
+  /* border: 2px solid orangered; */
+
+}
+
+#fn3{
+  height: 10%;
+  width: 100%;  
+  display: flex;  
+  /* border: 2px solid green; */
+}
+
+#fn31{
+  height: 100%;
+  width: 40%;
+  
+}
+
+#fn31ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: 12px;
+  padding-top: 8px;
+  
+}
+
+#fn31ul a,#fn2 a{  
+  text-decoration: none;
+  color: gray;
+}
+
+#fn31ul a:hover,#fn2 a:hover{
+  color: #1ed760;
+}
+
+#fn32{
+  padding-left: 602px;
+  padding-top: 5px;
+  font-size: 13px;
+  color: gray;
+}
+
+
